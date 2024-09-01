@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The taco shop</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1>The Taco Shop</h1>
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="#webpage">Webpage Contents</a></li>
+        <li><a href="#information">Information Table</a></li>
+        <li><a href="#contact">Contact Form</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero">
+      <img src="img/tacos-8176774_640.webp" alt="tasty tacos" />
+      <p>
+        Tacos! A delicious and varsatile Mexican dish that has captured the
+        hearts and <br> taste buds of people worldwide.
+      </p>
+    
+      <a
+        href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjfzNCWxqGIAxXVnP0HHZEaAx4QFnoECBAQAQ&url=https%3A%2F%2Fwww.techyjaunt.com%2F&usg=AOvVaw2TtoZpj_wmbsV4rKyXjzp7&opi=89978449"
+        >Visit Techyjaunt</a
+      >
+    </div>
+
+    <!-- Webpage Content -->
+
+    <h3 class="webpage__h3" id="webpage">Webpage Content</h3>
+    <ul class="webpage__ul">
+      <li>Introduction</li>
+      <li>Table of Information</li>
+      <li>Contact Form</li>
+    </ul>
+
+    <!-- Information Table -->
+
+    <h3 class="information__h3" id="information">Information Table</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Items</th>
+          <th>Description</th>
+          <th>Quantity</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Tacos al pastor</td>
+          <td>Taco filled with marinated pork.</td>
+          <td>5</td>
+        </tr>
+        <tr>
+          <td>Tacos de carne asada</td>
+          <td>A flavoured taco with grilled steak.</td>
+          <td>6</td>
+        </tr>
+        <tr>
+          <td>Tacos de pescado</td>
+          <td>A taco filled with crispy battered fish.</td>
+          <td>10</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Contact Form -->
+
+    <h3 class="contact__h3" id="contact">Contact Form</h3>
+    <form method="post" action="">
+      <label for="name">Name:</label>
+      <input type="text" id="name" required /><br />
+      <label for="Email">Email:</label>
+      <input type="email" id="email" required /><br />
+      <label for="Password">Password:</label>
+      <input type="password" id="password" required /><br />
+      <label for="Gender">Gender</label>
+      <input type="radio" name="sex" />Male
+      <input type="radio" name="sex" id="sex" />Female<br />
+      <label for="subscribe">Subsribe:</label>
+      <input type="checkbox" /> yes, i want to subcribe.<br />
+      <label for="Number of Items">Number of Items:</label>
+      <input type="number" /><br />
+      <label for="Date">Date:</label>
+      <input type="date" id="date" required /><br />
+      <label for="message">message:</label><br />
+      <textarea
+        name="message"
+        id="message"
+        row="3"
+        cols="30"
+        placeholder="leave a message here..."
+      ></textarea>
+    </form>
+    <button class="submit-btn">Submit</button>
+  </body>
+</html>
